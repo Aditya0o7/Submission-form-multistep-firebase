@@ -1,0 +1,16 @@
+
+@import "tailwindcss";
+
+input, button{
+  transition: all 0.3s;
+}
+input:focus,
+input:active,
+input:hover{
+  transform: scale(1.02);
+}
+
+
+button:hover{
+  transform: scale(1.04);
+}
