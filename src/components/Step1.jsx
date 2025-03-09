@@ -17,14 +17,6 @@
           value={formData.firstName || ""}
           onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
         />
-        <h2 className="mt-2 text-lg font-semibold">Middle Name:</h2>
-        <input
-          className="mt-2 w-full p-2 border rounded"
-          placeholder="Your answer"
-          type="text"
-          value={formData.middleName || ""}
-          onChange={(e) => setFormData({ ...formData, middleName: e.target.value })}
-        />
         
         <h2 className="mt-2 text-lg font-semibold">Last Name:</h2>
         <input
