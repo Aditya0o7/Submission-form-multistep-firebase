@@ -18,7 +18,7 @@ const MultiStepForm = () => {
   const prevStep = () => setStep((prev) => prev - 1);
   const [submitAppeared, setSubmitAppeared] = useState(false);
   useEffect(()=>{
-    setSubmitAppeared(step==6);
+    setSubmitAppeared(step==5);
   },[step]);
 
   return (
