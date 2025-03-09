@@ -44,12 +44,11 @@ const Step2 = ({ nextStep, prevStep, formData, setFormData }) => {
     setPhoneError("");
 
     // Validate that phone number is at least 10 digits
-    if (formData.phoneNo.trim().length < 10) {
-      setPhoneError("Phone number must be at least 10 digits.");
+    if (formData.phoneNo.trim().length != 10) {
+      setPhoneError("Phone number must be of 10 digits.");
       return;
     }
 
-    // Proceed to next step if validation passes
     nextStep();
   };
 
