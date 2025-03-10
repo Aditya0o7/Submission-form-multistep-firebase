@@ -90,6 +90,8 @@ const Step4 = ({ nextStep, prevStep, formData, setFormData }) => {
     "BSc Osteopathy",
     "MSc Osteopathy",
     "Integrated M.Sc. in Osteopathy",
+    "Master's in Yoga Distance Online",
+    "BBA Distance Online",
   ];
 
   return (
